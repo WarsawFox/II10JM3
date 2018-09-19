@@ -1,0 +1,13 @@
+Æwiczenie 04
+
+a) Zbuduj formularz sk³adaj¹cy siê z nastêpuj¹cych pól:
+-lista wyboru: z wartoœciami: groszek, fasola, marchewka, kapusta, broku³y,
+-zmodyfikuj listê wyboru by mo¿na by³o wybraæ wiêcej ni¿ jedn¹ wartoœæ
+-
+-przycisk 'wyœlij'.
+Zastosuj HTML i CSS w osobnych plikach.
+
+b) U¿yj metody POST do przes³ania danych formularza. Stwórz plik obs³uga_formularza.php, który odczyta dane z formular i wyœwietli na stronie zaznaczone opcje. 
+
+c) Stwórz plik php, który bêdzie odbiera³ dane z formularza i wyœwietla³ je (odwo³aj siê do wszystkich elementów tablicy $_POST).
+

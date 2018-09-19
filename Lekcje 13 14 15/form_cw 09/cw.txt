@@ -1,0 +1,15 @@
+<!--
+Æwiczenie
+Stwórz formularz z nastêpuj¹cymi polami:
+- email,
+- ulubiony kolor: niebieski, czerwony, ¿ó³ty, inny (jeden!)
+- ulubiona marka pojazdu: WV, opel, pasiat, ford, inna (jedna!)
+- zainteresowania: sport, szko³a, muzyka, tv (kilka!)
+- plik ze zdjêciem
+- wybór spacjalnoœci: technik informatyk, technik elektronik,
+						technik elektyk (listaw wyboru)
+- twoja opinia o pogodzie (pole wielowierszowe)
+- wymyœleæ  samemu (pole z podpowiedziami)
+
+Obs³u¿ ten formularz (echo, "zainteresowania: sport, abc")
+ -->
