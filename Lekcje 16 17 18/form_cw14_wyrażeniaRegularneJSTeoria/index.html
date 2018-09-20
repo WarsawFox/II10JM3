@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<title>Logowanie</title>
+<meta charset='UTF-8'>
+
+<h1>LOGOWANIE</h1>
+
+<form method='POST' action='./obsluga.php' onsubmit='return validate(this)'>
+	<p>
+		<label for='Imie'>
+			Imie:
+		</label>
+		<input type='text' id='imie' name='dimie'>
+	</p>
+    <p>
+		<label for='wiek'>
+			Wiek:
+		</label>
+		<input type='text' id='wiek' name='dwiek'>
+	</p>
+		
+	<p>
+		<label for='login'>
+			login:
+		</label>
+		<input type='text' id='login' name='dlogin'>
+	</p>
+	<p>
+		<label for='haslo'>
+			hasło:
+		</label>
+		<input type='password' id='haslo' name='dhaslo'>
+	</p>
+	<p>
+		<label for='email'>
+			e-mail
+		</label>
+		<input type='email' id='email' name='demail'>
+	</p>
+	<p>
+		<input type='submit' value='zaloguj' name='dsubmit'>
+	</p>
+</form>
+
+
+<script>
+      function validate(form)
+      {
+        fail  = SprawdzImie(form.dimie.value)
+        fail += SprawdzWiek(form.dwiek.value)
+        fail += SprawdzLogin(form.dlogin.value)
+        fail += SprawdzHaslo(form.dhaslo.value)
+        fail += SprawdzEmail(form.demail.value)
+        if   (fail == "")   return true
+        else { alert(fail); return false }
+      }
+	function SprawdzImie(field)
+      {
+        return (field == "") ? "Nie wpisano imienia.\n" : ""
+      }	
+   function SprawdzWiek(field)
+      {
+		field=parseInt(field)
+        if (isNaN(field)) return "Nie podano wieku.\n"
+        else if (field < 18 || field > 150)
+          return "Wiek musi się zawierać między 18 a 150.\n"
+        return ""
+      }
+	function SprawdzLogin(field)
+      {
+        if (field == "") return "Nie wpisano nazwy użytkownika.\n"
+		else if (field.length < 5)
+          return "Nazwa użytkownika musi się składać z co najmniej 5 znaków.\n"
+		return ""
+      }	
+	function SprawdzHaslo(field)
+      {
+        if (field == "") return "Nie wpisano hasła.\n"
+        else if (field.length < 6)
+          return "Hasło musi mieć co najmniej 6 znaków.\n"
+		else if (!/[a-z]/.test(field)||!/[A-Z]/.test(field)||!/[0-9]/.test(field))
+			return "W haśle musi być co najmniej jeden znak z zakresu a-z, A-Z i liczba"
+		return ""
+		}
+	function SprawdzEmail(field)
+      {
+        if (field == "") return "Nie wpisano emaila.\n"
+		else if (!((field.indexOf(".")>0)&&
+				   (field.indexOf("@")>0))||
+					/[^a-zA-Z0-9.@_-]/.test(field))
+			return "Podano nieprawidłowy adres email"
+		return ""
+		}
+		
+</script>
+
+
+
+

@@ -1,0 +1,23 @@
+body{
+	background-color: gray;
+}
+
+input[type="reset"]{
+	background-color:red
+}
+
+input[type="submit"]{
+	background-color:green
+}
+input:required+label:email{
+	content: '*';
+	display: inline-block;
+}
+
+input:required+label:haslo{
+	content: '*';
+}
+input:required+label:haslo2{
+	content: '*';
+}
+

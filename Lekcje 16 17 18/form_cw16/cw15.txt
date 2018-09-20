@@ -1,0 +1,19 @@
+<--
+Stwórz formularz, w którym pojawi¹ siê nastêpuj¹ce pola:
+- Imie 
+- Nazwisko
+- Login
+- Has³o
+- Uwagi: 
+
+Wymagania:
+- Wszystkie pola maj¹ byæ wype³nione
+- pole "Has³o" powinno wymagaæ podania znaków liter ma³ych i du¿ych liczb oraz przynajmniej jednego znaku specjalnego i powinno mieæ co najmniej 8 znaków
+- pole "Login" powinno wymagaæ podania liter ma³ych lub du¿ych oraz liter i powinno mieæ co najmniej 6 znaków
+- pole "Uwagi" powinno sk³adaæ siê z kilku s³ów w jednym zdaniu. Proszê sprawdzaæ poprawnoœæ pod wzglêdem wystêpowania spacji, ew. bia³ych znaków i czy na koñcu jest kropka. 
+- pole Imie powinno sk³adaæ siê wy³¹cznie z liter i nie mo¿e zawieraæ kilku popularnych obraŸliwych s³ów (proszê uwzglêdniæ co najmniej 3).
+- pole Nazwisko powinno sk³adaæ siê wy³¹cznie z liter i nie mo¿e zawieraæ cyfr.
+
+Zastosuj odpowiedni¹ metodê wysy³ania danych formularza. Dane maj¹ byæ wysy³ane do pliku o nazwie obsluga_formularza.php
+
+->

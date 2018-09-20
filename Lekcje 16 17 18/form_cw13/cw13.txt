@@ -1,0 +1,20 @@
+<--
+Stwórz formularz, w którym pojawi¹ siê nastêpuj¹ce pola:
+- Imie 
+- email
+- Nr Telefonu
+- Powtórzony nr Telefonu
+- Czy chcesz zapisaæ siê do naszego Newslettera (Opcja wyboru)
+
+Wymagania:
+- Pole e-mail musi byæ walidowane pod wzglêdem formatu emaila oraz wymagane
+- pola Nr Telefonu i Powtórzony nr Telefonu musz¹ byæ walidowane pod wzglêdem zgodnoœci oraz wymagane,
+- Przycisk do resetowania musi mieæ etykietê o treœci "Usuñ dane" i byæ koloru ¿ó³tego
+- przycisk do wys³ania formuarza musi byæ koloru niebieskiego i mieæ etykietê o treœci "Zapisz dane"
+
+- Jeœli pola z numerami telefonu s¹ Ÿle wype³nione to przycisk do wysy³ania formularza niech bêdzie nieaktywny.
+- A jeœli ¿adne pole nie bêdzie wype³nione w formularzu to niech przycisk "Usuñ dane" bêdzie nieaktywny
+
+Zastosuj odpowiedni¹ metodê wysy³ania danych formularza. Dane maj¹ byæ wysy³ane do pliku o nazwie obsluga_formularza.php
+
+->
