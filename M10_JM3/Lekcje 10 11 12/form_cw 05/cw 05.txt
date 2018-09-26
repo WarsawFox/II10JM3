@@ -1,0 +1,16 @@
+<!--
+// zad. 1
+
+Stwórz plik obs³ugi formularza, który bêdzie mia³ zabezpieczenie
+przed wejœciem do tego pliku z pominiêciem formularza.
+
+Jeœli formularz zostanie wys³any do pliku obsluga1.php, to
+niech zostanie sprawdzone, czy wszystkie dane zosta³y podane.
+
+Jeœli dane nie zosta³y podane, to niech bêdzie wyœwietlony 
+odpowiedni komunikat co zosta³o nie wprowadzone.
+A jeœli dane zosta³y podane, to niech zostan¹ wyœwietlone.
+
+Jeœli dostaliœmy siê z pominiêciem formularza, to niech 
+bêdzie przekierowanie do strony z formularzem.
+-->

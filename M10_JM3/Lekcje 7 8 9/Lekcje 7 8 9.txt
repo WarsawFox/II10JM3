@@ -1,0 +1,39 @@
+Zad. 1.
+Napisaæ prost¹ klasê, która wyœwietla napis:
+"Ta klasa to zrobi³a"
+Zad 2.
+Napisaæ klasê, która realizuje prosty kalkulator z dodawaniem, odejmowaniem, mno¿eniem i dzieleniem.
+Przyk³ad:
+$licze=new MojKalkulator(2,3)
+echo $licze->dodaj(); //5
+echo $licze->pomnoz(); //6
+
+Zad. 3
+Napisaæ klasê, która zamienia format daty:
+Przyk³ad:
+Wpisujemy '2018-09-06'
+Otrzymujemy: '06-09-2018'
+
+Zad. 4.
+Stwórz klasê Robaczek, która bêdzie sterowaæ ruchami Robaczka. Klasa powinna przechowywaæ wspó³rzêdne x, y, krok (sta³a wartoœæ kroku dla Robaczka), i powinna mieæ nastêpuj¹ce metody:
+•	konstruktor – który nadaje wartoœæ dla x, y i krok
+•	idzWGore(ileKrokow) – metoda która przesuwa robaczka o ileKrokow*krok w odpowiednim kierunku i ustawia nowe wartoœci wspó³rzêdnych x i y
+•	idzWDol(ileKrokow) – metoda która przesuwa robaczka o ileKrokow*krok w odpowiednim kierunku i ustawia nowe wartoœci wspó³rzêdnych x i y
+•	idzNaLewo(ileKrokow) – metoda która przesuwa robaczka o ileKrokow*krok w odpowiednim kierunku i ustawia nowe wartoœci wspó³rzêdnych x i y
+•	idzNaPrawo(ileKrokow) – metoda która przesuwa robaczka o ileKrokow*krok w odpowiednim kierunku i ustawia nowe wartoœci wspó³rzêdnych x i y
+•	pokazGdzieJestes() – metoda, która wyœwietla aktualne wspó³rzêdne Robaczka
+Stwórz instancjê klasy i sprawdŸ jak dzia³aj¹ wszystkie metody
+
+Zad. 5
+Stwórz klasê Figury i klasê, która po niej dziedziczy Kwadrat.
+Klasa Figury powinna zawieraæ 
+Pola:
+- bokiFigury
+Metody:
+- obliczObwód,
+- wyswietlWartosci
+Klasa Kwadrat dziedziczy po klasie Figury. Powinna zawieraæ:
+Pola:
+- bok
+Metody:
+- obliczPole

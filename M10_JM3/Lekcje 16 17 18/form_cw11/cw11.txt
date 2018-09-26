@@ -1,0 +1,10 @@
+<!--
+Æwiczenie
+Stwórz formularz z nastêpuj¹cymi polami:
+- Nazwisko
+- Sta¿ pracy (w latach, Sprawdz czy jest to liczba miêdzy 0 a 50 i wyœwietl odpowiedni komunikat jeœli nie)
+- Stanowisko pracy (Sprawdz czy nazwa sk³ada siê z co najmniej 7 znaków)
+- Nazwa zak³adu pracy (Sprawdz czy nazwa sk³ada siê z co najmniej 10 znaków)
+
+Obs³u¿ ten formularz (np. poprzez instrukcjê echo)
+ -->

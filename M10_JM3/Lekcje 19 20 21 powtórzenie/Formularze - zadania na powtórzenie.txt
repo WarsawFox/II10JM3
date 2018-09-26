@@ -1,0 +1,57 @@
+Zad 1.
+Utwórz formularz i odpowiednik plik php, który bêdzie wyœwietla³ dane wprowadzone w  do fomularza. Dobierz odpowiednie pola
+
+Elementy formularza:
+- imie
+- nazwisko
+- e-mail
+- przycisk do resetowania formularza,
+- przycisk do wysy³ania danych formularza,
+- etykiety informuj¹ce do czego odpowiednie pola formularza s³u¿¹
+
+Wymagania
+ 
+- Pole email musi byæ walidowane pod wzglêdem formatu,
+- Pola: imiê i nazwisko powinno zawieraæ wy³¹cznie litery,
+
+
+Zad 2.
+Utwórz formularz i odpowiednik plik php, który bêdzie wyœwietla³ dane wprowadzone w  do fomularza. Dobierz odpowiednio typy pól w formularzu.
+
+Elementy formularza:
+- login,
+- has³o,
+- pytanie pomocnicze,
+- powtórz pytanie pomocnicze,
+- wiek,
+- przycisk do resetowania formularza,
+- przycisk do wysy³ania danych formularza,
+- etykiety informuj¹ce do czego odpowiednie pola formularza s³u¿a
+
+Wymagania
+- Pole has³o powinno zawieraæ wielkie i ma³e litery oraz cyfry i powinno mieæ co najmniej 6 znaków
+- Pole pytanie pomocnicze i powtórz pytanie pomocnicze powinno byæ walidowane pod wzglêdem zgodnoœci i wymagane
+- Przycisk do kasowania danych powinien zawieraæ napis "Kasuj Dane".
+- Przycisk do wysy³ania danych powinien mieæ napis "Wyœlij dane",
+- Przycisk do wysy³ania danych powinien byæ aktywny wy³¹cznie wtedy jeœli wiek jest wiêkszy b¹dŸ równy 18.
+
+Zad 3
+Utwórz formularz i odpowiednik plik php, który bêdzie wyœwietla³ dane wprowadzone w  do fomularza. Dobierz odpowiednie pola
+
+Elementy formularza:
+- id
+- nazwa towaru
+- ilosc
+- jednostka (trzeba wybraæ jeden z wielu: sztuka, kg, litry)
+- cena jednostkowa
+- razem,
+- przycisk do wysy³ania danych formularza,
+- przycisk do resetowania formularza,
+- etykiety informuj¹ce do czego odpowiednie pola formularza s³u¿¹
+
+Wymagania
+ 
+- pole ilosc nie mo¿e mieæ wartoœci zerowej,
+- pole razem powinien byæ to iloczyn iloœci i ceny jednostkowej, pole to powinno siê wype³niaæ automatycznie po wype³nieniu pól z iloœci¹ i cen¹ jednostkow¹,
+- przycisk do wysy³anai danych formularza powinien miec napis "Zaakaceptuj" i powinien byæ aktywny gdy wszystkie pola bêd¹ wype³nione,
+- przycisk do resetowania formularza powinien mieæ napis "Anuluj".

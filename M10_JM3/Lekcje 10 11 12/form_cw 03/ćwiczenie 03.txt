@@ -1,0 +1,12 @@
+Æwiczenie 03
+
+a) Zbuduj formularz sk³adaj¹cy siê z nastêpuj¹cych pól:
+-imiê,
+-nazwisko,
+-wiek,
+-przycisk 'wyœlij'.
+Zastosuj HTML i CSS w osobnych plikach.
+
+b) U¿yj metody GET do przes³ania danych formularza. Jaka jest ró¿nica pomiêdzy GET i POST.
+
+c) Stwórz plik php, który bêdzie odbiera³ dane z formularza i wyœwietla³ je (odwo³aj siê do wszystkich elementów tablicy $_GET).

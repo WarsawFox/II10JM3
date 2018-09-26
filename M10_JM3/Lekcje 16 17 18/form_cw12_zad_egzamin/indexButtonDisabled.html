@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formularz</title>
+		<meta charset='UTF-8'>
+		<link rel='stylesheet' href='./style.css'>
+	</head>
+	<body>
+		<h1>Formularz</h1>
+		<form action='./obsluga_formularza.php' method='post' >
+			E-mail: <br>
+			<input  type='email' id='email' name='email' value='' size='30' required>
+			<br> Podaj hasło: <br>
+			<input  type='password' id='haslo' name='haslo' value='' size='30' required>
+			<br> Powtórz hasło: <br>
+			<input  type='password' id='haslo2' name='haslo2' onchange="validate_pass('haslo','haslo2')" value='' size='30' required>
+			<br>
+			<input  type='checkbox' id='czy18' name='czy18' maxlength='1' required> Czy masz ukończone 18 lat<br>
+			<br>
+		<script>
+		function validate_pass(p,r) {
+  if (document.getElementById(p).value!=document.getElementById(r).value) {
+    document.getElementById('submitButton').disabled=true;
+  } else {
+    document.getElementById('submitButton').disabled=false;
+  }
+}
+		</script>
+			<input type='reset' value='wyczyść formularz' name='czysc_form'>
+			<input type='submit' id='submitButton' value='zarejestruj mnie' disabled='true' name='rejestruj_form'>
+			&nbsp; &nbsp;
+		
+		</form>
+	</body>
+</html>

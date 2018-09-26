@@ -1,0 +1,12 @@
+Cw14
+Chcemy stworzyæ formularz do logowania w którym maj¹ byæ nastêpuj¹ce pola:
+- imie
+- wiek
+- login
+- haslo
+-e-mail
+Dodatkowo mamy za³o¿enia:
+- login nie mo¿e mieæ mniej ni¿ 5 znaków,
+- wiek powinien zawieraæ siê w przedziale od 18 do 149
+- Has³o powinno zawieraæ ma³e i wielkie litery oraz znaki,
+- email oprócz znaku @ powinien mieæ odpowiedni¹ formê (czyli sprawdzamy czy s¹ w nim znaki .) 

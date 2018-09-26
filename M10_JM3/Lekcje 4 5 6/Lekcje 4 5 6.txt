@@ -1,0 +1,31 @@
+zad1. Napisaæ skrypt, który wyœwietla napis "Hello World"
+Zad2. Wyœwietliæ liczby od 1 do 50
+Zad3. Zapisaæ liczby z zad2 do tablicy
+Zad4. Zapisaæ tablicê asocjacyjn¹ z ulubionymi rzeczami
+Zad5. Napisaæ funkcjê signum
+Zad6. Napisaæ funkcjê, która zlicza spacje w zdaniu. Funkcja zwraca liczbê spacji.
+Zad7. Napisaæ funkcjê, która bada czy podany ci¹g jest rosn¹cy czy malej¹cy. Ci¹g jest argumentem. Sposób prezentacji wyniku ustaliæ samodzielnie.
+Zad8. Napisaæ funkcjê, która sprawdza czy podany wyraz jest palindromem np. kajak
+Zadania palindromowe: Madam I'm Adam 
+			Kamil Œlimak
+
+Zad9. napisaæ funkcjê, która odwraca podane s³owo.
+
+Zad10. Wykorzystaæ komende switch ... case do zaprogramowania dni tygodnia. Chodzi o to by napisaæ funkcjê, która przyjmuje wartoœci od 1 do 7 a w zamian za to wypisuje nazwy dni tygodnia
+Przyk³ad:
+input: dzienTygodnia(2)
+output: wtorek
+
+Zad 11. Utwórz tablicê asocjacyjn¹ ze skrótami i pe³nymi nazwami przedmiotów z planu zajêæ. Nastêpnie napisz funkcjê, która wyœwietla wszystkie elementy tablicy (proszê wykorzystaæ konstrukcjê foreach)
+Zad 12. 
+Napisz funkcjê, która generuje tabliczkê mno¿enia i wyœwietla j¹ w przegl¹darce. Proszê tabliczkê mno¿enia zapisaæ do dwuwymiarowej tablicy
+Zad 13. 
+Napisz funkcjê, która generuje tablicê dwuwymiarow¹ o zadanej wielkoœci sk³adaj¹c¹ siê z samych zer.
+Zad 14.
+Napisz funkcjê, która generuje tablicê dwuwymiarow¹ o zadanej wielkoœci w postaci macierzy jednostkowej (na przek¹tnej same jedynki a powy¿ej i poni¿ej same zera)
+Przyk³ad:
+input: macierzJednostkowa(3)
+output:
+1 0 0
+0 1 0
+0 0 1

@@ -1,0 +1,15 @@
+Æwiczenie 01
+
+a)
+Zbuduj fomularz z nastêpuj¹cymi polami:
+-imie,
+-nazwisko,
+-email,
+-skoñczone 18 lat,
+-p³eæ (kobieta/mê¿czyzna),
+-przycisk 'przeœlij dane'.
+
+Zastosuj HTML i CSS w osobnych plikach.
+
+b)
+Stwórz plik php, który bêdzie odbiera³ dane z formularza i wyœwitla³ je.
