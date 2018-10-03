@@ -1,0 +1,6 @@
+<--
+Wykorzystuj¹c formularz do logowania, po³¹cz siê z baz¹ danych i wykorzystuj¹c odpowiednie zapytania wprowadz 5 linijek danych do stworzonej w cw01 tabeli.
+
+Wynik sprawdz b¹dŸ u¿ywaj¹c wiersza poleceñ, b¹dŸ u¿ywaj¹c panelu phpMyAdmin
+
+->
